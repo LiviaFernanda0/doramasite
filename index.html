@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+    
+        <!-- Nova etapa para escolher uma princesa -->
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            <p>Escolha a alternativa que mais combina com você:</p>
+            <button class="btn-proximo" data-proximo="18">coragem</button>
+            <button class="btn-proximo" data-proximo="19">cavalherismo</button>
+            <button class="btn-proximo" data-proximo="20">Criativo - Tem uma mente imaginativa</button>
+            <button class="btn-proximo" data-proximo="21">Amigável - Valoriza as amizades e laços</button>
+        </div>
+
+        <!-- Resultados baseados na escolha da princesa -->
+        <div class="passo" id="passo-18">
+            <p>Voce é corajoso como Ri jeong-hyeok</p>
+        </div>
+        <div class="passo" id="passo-19">
+            <p>Você é cavalheiro como Kang Tae-oh</p>
+        </div>
+        <div class="passo" id="passo-20">
+            <p>Você compartilha a criatividade 
+                Shin Ha-ri</p>
+        </div>
+        <div class="passo" id="passo-21">
+            <p>Você é tão amigável quanto a 
+                Shin Ha-ri</p>
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
